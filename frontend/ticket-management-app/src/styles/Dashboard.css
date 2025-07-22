@@ -1,0 +1,10 @@
+/* src/styles/Dashboard.css */
+.dashboard-container {
+  min-height: calc(100vh - 4rem); /* Adjust for navbar height */
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    min-height: calc(100vh - 5rem); /* Account for mobile navbar */
+  }
+}
